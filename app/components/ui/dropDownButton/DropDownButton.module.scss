@@ -1,0 +1,13 @@
+.button {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.menu {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    background-color: var(--color-surface);
+}

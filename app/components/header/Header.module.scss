@@ -1,0 +1,35 @@
+.header {
+// //   background-color: rgba(255, 255, 255, 0.85);
+// //   -webkit-backdrop-filter: blur(10px); // Safari / iOS
+// //   backdrop-filter: blur(10px);
+// //   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+
+//   background-color: rgba(255, 255, 255, 0.95);
+
+//   @supports ((-webkit-backdrop-filter: blur(10px)) or (backdrop-filter: blur(10px))) {
+//     background-color: rgba(255, 255, 255, 0.85);
+//     -webkit-backdrop-filter: blur(10px);
+//     backdrop-filter: blur(10px);
+//   }
+  background-color: var(--color-surface);
+}
+
+.mobileHeader {
+  background-color: var(--color-surface);
+}
+
+.mobileMenu {
+  background: var(--color-surface);
+  border-radius: 0.75rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  animation: fadeSlide 0.2s ease-out;
+}
+
+.searchBar {
+    width: 600px;
+    font-size: 1rem;
+    padding: 0.2rem 1rem;
+    border: none;
+    outline: none;
+    // transition: border-color 0.2s ease-in-out;
+}
